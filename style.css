@@ -19,6 +19,7 @@ body{
     font-family:cursive;
     font-size:1.6rem;
     margin-bottom:15px;
+    text-align:center;
 }
 .all-btn{
     display:flex;
