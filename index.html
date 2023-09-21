@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration-Form-Validation</title>
+</head>
+<body>
+    
+    <div class="main-container">
+        <h1>Registration Form</h1>
+        <button class="btn active" id="name-btn">Name</button>
+        <button class="btn" id="contact-btn">Contact</button>
+        <button class="btn" id="birth-btn">Birth</button>
+        <button class="btn" id="preview-btn">Preview</button>
+
+        <!-- name-step-form -->
+        <div class="name-step">
+            <h2>Basic Info:</h2>
+            <form action="" id="name-step-form">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName">
+                <input type="submit" value="Next" id="nxt-btn-nme">
+            </form>
+        </div>
+
+        <!-- contact-step-form -->
+        <div class="contact-step">
+            <h2>Contact Info:</h2>
+            <form action="" id="contact-step-form">
+                <label for="email">Email</label>
+                <input type="email" id="email">
+                <label for="number">Phone</label>
+                <input type="number" id="number">
+                <input type="submit" value="Next" id="nxt-btn-cntct">
+            </form>
+        </div>
+
+        <!-- birth-step-form -->
+        <div class="birth-step">
+            <h2>Birth Info:</h2>
+            <form action="" id="birth-step-form">
+                <label for="date">Select Your Birth Date</label>
+                <input type="date" id="date">
+                <label for="place">Birth Place</label>
+                <input type="text" id="place">
+                <input type="submit" value="Next" id="nxt-btn-birth">
+            </form>
+        </div>
+
+        <!-- preview-step-form -->
+        <div class="preview-step">
+            <p id="pra-name"></p>
+            <p id="pra-email"></p>
+            <p id="pra-phone"></p>
+            <p id="pra-birth-date"></p>
+            <p id="pra-birth-place"></p>
+            <button id="okBtn">Ok</button>
+            <button id="submit-btn">Submit</button>
+        </div>
+    </div>
+
+
+    <script src="hello.js"></script>
+</body>
+</html>
